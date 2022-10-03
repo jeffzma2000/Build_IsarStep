@@ -1,0 +1,361 @@
+<?xml version="1.0" ?>
+<theory full_name="Test/Drinker.thy">
+   <entry compound_index="None" location_in_theorem="[1]" refinement_step_location="None" theorem_id="thm_x_sq0">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isacharparenleft}x\ {\isacharplus}\ {\isadigit{1}}{\isacharparenright}\isactrlsup {\isadigit{2}}\ {\isacharequal}\ x\isactrlsup {\isadigit{2}}\ {\isacharplus}\ {\isadigit{2}}\ {\isacharasterisk}\ x\ {\isacharplus}\ {\isadigit{1}}\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a{\isachardot}\ a\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\ {\isacharasterisk}\ a\&lt;close&gt;</used_global_facts>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[0]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;sqrt\ {\isadigit{2}}\ {\isasymin}\ {\isasymrat}\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;sqrt\ {\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ a\ {\isacharslash}\ real{\isacharunderscore}of{\isacharunderscore}int\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;coprime\ a\ b\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}b\ f\ A\ thesis{\isachardot}\ b\ {\isasymin}\ f\ {\isacharbackquote}\ A\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ b\ {\isacharequal}\ f\ x\ {\isasymlongrightarrow}\ x\ {\isasymin}\ A\ {\isasymlongrightarrow}\ thesis{\isacharparenright}\ {\isasymlongrightarrow}\ thesis\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}r\ n\ d{\isachardot}\ quotient{\isacharunderscore}of\ r\ {\isacharequal}\ {\isacharparenleft}n{\isacharcomma}\ d{\isacharparenright}\ {\isasymlongrightarrow}\ r\ {\isacharequal}\ rat{\isacharunderscore}of{\isacharunderscore}int\ n\ {\isacharslash}\ rat{\isacharunderscore}of{\isacharunderscore}int\ d\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}q\ p{\isachardot}\ {\isadigit{0}}\ {\isacharless}\ q\ {\isasymlongrightarrow}\ coprime\ p\ q\ {\isasymlongrightarrow}\ Rat{\isachardot}normalize\ {\isacharparenleft}p{\isacharcomma}\ q{\isacharparenright}\ {\isacharequal}\ {\isacharparenleft}p{\isacharcomma}\ q{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}q\ C{\isachardot}\ {\isacharparenleft}{\isasymforall}a\ b{\isachardot}\ q\ {\isacharequal}\ Fract\ a\ b\ {\isasymlongrightarrow}\ {\isadigit{0}}\ {\isacharless}\ b\ {\isasymlongrightarrow}\ coprime\ a\ b\ {\isasymlongrightarrow}\ C{\isacharparenright}\ {\isasymlongrightarrow}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ quotient{\isacharunderscore}of\ {\isacharparenleft}Fract\ a\ b{\isacharparenright}\ {\isacharequal}\ Rat{\isachardot}normalize\ {\isacharparenleft}a{\isacharcomma}\ b{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ of{\isacharunderscore}rat\ {\isacharparenleft}a\ {\isacharslash}\ b{\isacharparenright}\ {\isacharequal}\ of{\isacharunderscore}rat\ a\ {\isacharslash}\ of{\isacharunderscore}rat\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}z{\isachardot}\ of{\isacharunderscore}rat\ {\isacharparenleft}rat{\isacharunderscore}of{\isacharunderscore}int\ z{\isacharparenright}\ {\isacharequal}\ of{\isacharunderscore}int\ z\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymrat}\ {\isacharequal}\ range\ of{\isacharunderscore}rat\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}b\ f\ A\ thesis{\isachardot}\ b\ {\isasymin}\ f\ {\isacharbackquote}\ A\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ b\ {\isacharequal}\ f\ x\ {\isasymlongrightarrow}\ x\ {\isasymin}\ A\ {\isasymlongrightarrow}\ thesis{\isacharparenright}\ {\isasymlongrightarrow}\ thesis\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}r\ n\ d{\isachardot}\ quotient{\isacharunderscore}of\ r\ {\isacharequal}\ {\isacharparenleft}n{\isacharcomma}\ d{\isacharparenright}\ {\isasymlongrightarrow}\ r\ {\isacharequal}\ rat{\isacharunderscore}of{\isacharunderscore}int\ n\ {\isacharslash}\ rat{\isacharunderscore}of{\isacharunderscore}int\ d\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}q\ p{\isachardot}\ {\isadigit{0}}\ {\isacharless}\ q\ {\isasymlongrightarrow}\ coprime\ p\ q\ {\isasymlongrightarrow}\ Rat{\isachardot}normalize\ {\isacharparenleft}p{\isacharcomma}\ q{\isacharparenright}\ {\isacharequal}\ {\isacharparenleft}p{\isacharcomma}\ q{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}q\ C{\isachardot}\ {\isacharparenleft}{\isasymforall}a\ b{\isachardot}\ q\ {\isacharequal}\ Fract\ a\ b\ {\isasymlongrightarrow}\ {\isadigit{0}}\ {\isacharless}\ b\ {\isasymlongrightarrow}\ coprime\ a\ b\ {\isasymlongrightarrow}\ C{\isacharparenright}\ {\isasymlongrightarrow}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ quotient{\isacharunderscore}of\ {\isacharparenleft}Fract\ a\ b{\isacharparenright}\ {\isacharequal}\ Rat{\isachardot}normalize\ {\isacharparenleft}a{\isacharcomma}\ b{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ of{\isacharunderscore}rat\ {\isacharparenleft}a\ {\isacharslash}\ b{\isacharparenright}\ {\isacharequal}\ of{\isacharunderscore}rat\ a\ {\isacharslash}\ of{\isacharunderscore}rat\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}z{\isachardot}\ of{\isacharunderscore}rat\ {\isacharparenleft}rat{\isacharunderscore}of{\isacharunderscore}int\ z{\isacharparenright}\ {\isacharequal}\ of{\isacharunderscore}int\ z\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymrat}\ {\isacharequal}\ range\ of{\isacharunderscore}rat\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[1]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;sqrt\ {\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ a\ {\isacharslash}\ real{\isacharunderscore}of{\isacharunderscore}int\ b\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;sqrt\ {\isadigit{2}}\ {\isasymin}\ {\isasymrat}\&lt;close&gt;</used_local_facts>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}b\ f\ A\ thesis{\isachardot}\ b\ {\isasymin}\ f\ {\isacharbackquote}\ A\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ b\ {\isacharequal}\ f\ x\ {\isasymlongrightarrow}\ x\ {\isasymin}\ A\ {\isasymlongrightarrow}\ thesis{\isacharparenright}\ {\isasymlongrightarrow}\ thesis\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}r\ n\ d{\isachardot}\ quotient{\isacharunderscore}of\ r\ {\isacharequal}\ {\isacharparenleft}n{\isacharcomma}\ d{\isacharparenright}\ {\isasymlongrightarrow}\ r\ {\isacharequal}\ rat{\isacharunderscore}of{\isacharunderscore}int\ n\ {\isacharslash}\ rat{\isacharunderscore}of{\isacharunderscore}int\ d\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}q\ p{\isachardot}\ {\isadigit{0}}\ {\isacharless}\ q\ {\isasymlongrightarrow}\ coprime\ p\ q\ {\isasymlongrightarrow}\ Rat{\isachardot}normalize\ {\isacharparenleft}p{\isacharcomma}\ q{\isacharparenright}\ {\isacharequal}\ {\isacharparenleft}p{\isacharcomma}\ q{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}q\ C{\isachardot}\ {\isacharparenleft}{\isasymforall}a\ b{\isachardot}\ q\ {\isacharequal}\ Fract\ a\ b\ {\isasymlongrightarrow}\ {\isadigit{0}}\ {\isacharless}\ b\ {\isasymlongrightarrow}\ coprime\ a\ b\ {\isasymlongrightarrow}\ C{\isacharparenright}\ {\isasymlongrightarrow}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ quotient{\isacharunderscore}of\ {\isacharparenleft}Fract\ a\ b{\isacharparenright}\ {\isacharequal}\ Rat{\isachardot}normalize\ {\isacharparenleft}a{\isacharcomma}\ b{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ of{\isacharunderscore}rat\ {\isacharparenleft}a\ {\isacharslash}\ b{\isacharparenright}\ {\isacharequal}\ of{\isacharunderscore}rat\ a\ {\isacharslash}\ of{\isacharunderscore}rat\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}z{\isachardot}\ of{\isacharunderscore}rat\ {\isacharparenleft}rat{\isacharunderscore}of{\isacharunderscore}int\ z{\isacharparenright}\ {\isacharequal}\ of{\isacharunderscore}int\ z\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymrat}\ {\isacharequal}\ range\ of{\isacharunderscore}rat\&lt;close&gt;</used_global_facts>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}a\isactrlsup {\isadigit{2}}{\isacharparenright}\ {\isacharslash}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}b\isactrlsup {\isadigit{2}}{\isacharparenright}\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;coprime\ a\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b\ n{\isachardot}\ {\isacharparenleft}a\ {\isacharslash}\ b{\isacharparenright}\isactrlbsup n\isactrlesup \ {\isacharequal}\ a\isactrlbsup n\isactrlesup \ {\isacharslash}\ b\isactrlbsup n\isactrlesup \&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}z\ n{\isachardot}\ of{\isacharunderscore}int\ z\isactrlbsup n\isactrlesup \ {\isacharequal}\ {\isacharparenleft}of{\isacharunderscore}int\ z{\isacharparenright}\isactrlbsup n\isactrlesup \&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isasymge}{\isadigit{0}}{\isachardot}\ {\isacharparenleft}sqrt\ x{\isacharparenright}\isactrlsup {\isadigit{2}}\ {\isacharequal}\ x\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[1]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;coprime\ a\ b\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;sqrt\ {\isadigit{2}}\ {\isasymin}\ {\isasymrat}\&lt;close&gt;</used_local_facts>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}b\ f\ A\ thesis{\isachardot}\ b\ {\isasymin}\ f\ {\isacharbackquote}\ A\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ b\ {\isacharequal}\ f\ x\ {\isasymlongrightarrow}\ x\ {\isasymin}\ A\ {\isasymlongrightarrow}\ thesis{\isacharparenright}\ {\isasymlongrightarrow}\ thesis\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}r\ n\ d{\isachardot}\ quotient{\isacharunderscore}of\ r\ {\isacharequal}\ {\isacharparenleft}n{\isacharcomma}\ d{\isacharparenright}\ {\isasymlongrightarrow}\ r\ {\isacharequal}\ rat{\isacharunderscore}of{\isacharunderscore}int\ n\ {\isacharslash}\ rat{\isacharunderscore}of{\isacharunderscore}int\ d\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}q\ p{\isachardot}\ {\isadigit{0}}\ {\isacharless}\ q\ {\isasymlongrightarrow}\ coprime\ p\ q\ {\isasymlongrightarrow}\ Rat{\isachardot}normalize\ {\isacharparenleft}p{\isacharcomma}\ q{\isacharparenright}\ {\isacharequal}\ {\isacharparenleft}p{\isacharcomma}\ q{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}q\ C{\isachardot}\ {\isacharparenleft}{\isasymforall}a\ b{\isachardot}\ q\ {\isacharequal}\ Fract\ a\ b\ {\isasymlongrightarrow}\ {\isadigit{0}}\ {\isacharless}\ b\ {\isasymlongrightarrow}\ coprime\ a\ b\ {\isasymlongrightarrow}\ C{\isacharparenright}\ {\isasymlongrightarrow}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ quotient{\isacharunderscore}of\ {\isacharparenleft}Fract\ a\ b{\isacharparenright}\ {\isacharequal}\ Rat{\isachardot}normalize\ {\isacharparenleft}a{\isacharcomma}\ b{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ of{\isacharunderscore}rat\ {\isacharparenleft}a\ {\isacharslash}\ b{\isacharparenright}\ {\isacharequal}\ of{\isacharunderscore}rat\ a\ {\isacharslash}\ of{\isacharunderscore}rat\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}z{\isachardot}\ of{\isacharunderscore}rat\ {\isacharparenleft}rat{\isacharunderscore}of{\isacharunderscore}int\ z{\isacharparenright}\ {\isacharequal}\ of{\isacharunderscore}int\ z\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymrat}\ {\isacharequal}\ range\ of{\isacharunderscore}rat\&lt;close&gt;</used_global_facts>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}a\isactrlsup {\isadigit{2}}{\isacharparenright}\ {\isacharslash}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}b\isactrlsup {\isadigit{2}}{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;sqrt\ {\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ a\ {\isacharslash}\ real{\isacharunderscore}of{\isacharunderscore}int\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b\ n{\isachardot}\ {\isacharparenleft}a\ {\isacharslash}\ b{\isacharparenright}\isactrlbsup n\isactrlesup \ {\isacharequal}\ a\isactrlbsup n\isactrlesup \ {\isacharslash}\ b\isactrlbsup n\isactrlesup \&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}z\ n{\isachardot}\ of{\isacharunderscore}int\ z\isactrlbsup n\isactrlesup \ {\isacharequal}\ {\isacharparenleft}of{\isacharunderscore}int\ z{\isacharparenright}\isactrlbsup n\isactrlesup \&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isasymge}{\isadigit{0}}{\isachardot}\ {\isacharparenleft}sqrt\ x{\isacharparenright}\isactrlsup {\isadigit{2}}\ {\isacharequal}\ x\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;even\ a\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;even\ b\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[2]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}a\isactrlsup {\isadigit{2}}{\isacharparenright}\ {\isacharslash}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}b\isactrlsup {\isadigit{2}}{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;sqrt\ {\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ a\ {\isacharslash}\ real{\isacharunderscore}of{\isacharunderscore}int\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;coprime\ a\ b\&lt;close&gt;</used_local_facts>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b\ n{\isachardot}\ {\isacharparenleft}a\ {\isacharslash}\ b{\isacharparenright}\isactrlbsup n\isactrlesup \ {\isacharequal}\ a\isactrlbsup n\isactrlesup \ {\isacharslash}\ b\isactrlbsup n\isactrlesup \&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}z\ n{\isachardot}\ of{\isacharunderscore}int\ z\isactrlbsup n\isactrlesup \ {\isacharequal}\ {\isacharparenleft}of{\isacharunderscore}int\ z{\isacharparenright}\isactrlbsup n\isactrlesup \&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isasymge}{\isadigit{0}}{\isachardot}\ {\isacharparenleft}sqrt\ x{\isacharparenright}\isactrlsup {\isadigit{2}}\ {\isacharequal}\ x\&lt;close&gt;</used_global_facts>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharasterisk}\ b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\isactrlsup {\isadigit{2}}\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[3,0]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}a\isactrlsup {\isadigit{2}}{\isacharparenright}\ {\isacharslash}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}b\isactrlsup {\isadigit{2}}{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}b\isactrlsup {\isadigit{2}}{\isacharparenright}\ {\isacharasterisk}\ {\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}a\isactrlsup {\isadigit{2}}{\isacharparenright}\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a{\isachardot}\ a\ {\isacharslash}\ {\isacharparenleft}{\isadigit{0}}{\isacharcolon}{\isacharcolon}{\isacharquery}{\isacharprime}a{\isacharparenright}\ {\isacharequal}\ {\isacharparenleft}{\isadigit{0}}{\isacharcolon}{\isacharcolon}{\isacharquery}{\isacharprime}a{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ a\ {\isasymnoteq}\ {\isacharparenleft}{\isadigit{0}}{\isacharcolon}{\isacharcolon}{\isacharquery}{\isacharprime}a{\isacharparenright}\ {\isasymlongrightarrow}\ a\ {\isacharasterisk}\ b\ div\ a\ {\isacharequal}\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b\ c{\isachardot}\ a\ {\isacharasterisk}\ {\isacharparenleft}b\ {\isacharslash}\ c{\isacharparenright}\ {\isacharequal}\ a\ {\isacharasterisk}\ b\ {\isacharslash}\ c\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}n{\isachardot}\ {\isacharparenleft}{\isadigit{0}}{\isacharcolon}{\isacharcolon}{\isacharquery}{\isacharprime}a{\isacharparenright}\ {\isasymnoteq}\ numeral\ n\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[3]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharasterisk}\ b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\isactrlsup {\isadigit{2}}\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}a\isactrlsup {\isadigit{2}}{\isacharparenright}\ {\isacharslash}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}b\isactrlsup {\isadigit{2}}{\isacharparenright}\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ {\isadigit{2}}\ {\isacharasterisk}\ c\isactrlsup {\isadigit{2}}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;even\ a\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ even\ {\isacharparenleft}a\ {\isacharasterisk}\ b{\isacharparenright}\ {\isacharequal}\ {\isacharparenleft}even\ a\ {\isasymor}\ even\ b{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a{\isachardot}\ a\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\ {\isacharasterisk}\ a\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ a\ dvd\ a\ {\isacharasterisk}\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;a\ {\isacharequal}\ {\isadigit{2}}\ {\isacharasterisk}\ c\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[3,2]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharasterisk}\ b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\isactrlsup {\isadigit{2}}\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}b\isactrlsup {\isadigit{2}}{\isacharparenright}\ {\isacharasterisk}\ {\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}a\isactrlsup {\isadigit{2}}{\isacharparenright}\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[3,1]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}b\isactrlsup {\isadigit{2}}{\isacharparenright}\ {\isacharasterisk}\ {\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}a\isactrlsup {\isadigit{2}}{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharequal}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}a\isactrlsup {\isadigit{2}}{\isacharparenright}\ {\isacharslash}\ real{\isacharunderscore}of{\isacharunderscore}int\ {\isacharparenleft}b\isactrlsup {\isadigit{2}}{\isacharparenright}\&lt;close&gt;</used_local_facts>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a{\isachardot}\ a\ {\isacharslash}\ {\isacharparenleft}{\isadigit{0}}{\isacharcolon}{\isacharcolon}{\isacharquery}{\isacharprime}a{\isacharparenright}\ {\isacharequal}\ {\isacharparenleft}{\isadigit{0}}{\isacharcolon}{\isacharcolon}{\isacharquery}{\isacharprime}a{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ a\ {\isasymnoteq}\ {\isacharparenleft}{\isadigit{0}}{\isacharcolon}{\isacharcolon}{\isacharquery}{\isacharprime}a{\isacharparenright}\ {\isasymlongrightarrow}\ a\ {\isacharasterisk}\ b\ div\ a\ {\isacharequal}\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b\ c{\isachardot}\ a\ {\isacharasterisk}\ {\isacharparenleft}b\ {\isacharslash}\ c{\isacharparenright}\ {\isacharequal}\ a\ {\isacharasterisk}\ b\ {\isacharslash}\ c\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}n{\isachardot}\ {\isacharparenleft}{\isadigit{0}}{\isacharcolon}{\isacharcolon}{\isacharquery}{\isacharprime}a{\isacharparenright}\ {\isasymnoteq}\ numeral\ n\&lt;close&gt;</used_global_facts>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharasterisk}\ b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\isactrlsup {\isadigit{2}}\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[4]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;even\ a\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharasterisk}\ b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\isactrlsup {\isadigit{2}}\&lt;close&gt;</used_local_facts>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ even\ {\isacharparenleft}a\ {\isacharasterisk}\ b{\isacharparenright}\ {\isacharequal}\ {\isacharparenleft}even\ a\ {\isasymor}\ even\ b{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a{\isachardot}\ a\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\ {\isacharasterisk}\ a\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ a\ dvd\ a\ {\isacharasterisk}\ b\&lt;close&gt;</used_global_facts>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;a\ {\isacharequal}\ {\isadigit{2}}\ {\isacharasterisk}\ c\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;coprime\ a\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;even\ b\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[5]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;a\ {\isacharequal}\ {\isadigit{2}}\ {\isacharasterisk}\ c\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;even\ a\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ {\isadigit{2}}\ {\isacharasterisk}\ c\isactrlsup {\isadigit{2}}\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharasterisk}\ b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\isactrlsup {\isadigit{2}}\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[6]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ {\isadigit{2}}\ {\isacharasterisk}\ c\isactrlsup {\isadigit{2}}\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isadigit{2}}\ {\isacharasterisk}\ b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\isactrlsup {\isadigit{2}}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;a\ {\isacharequal}\ {\isadigit{2}}\ {\isacharasterisk}\ c\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;even\ b\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ even\ {\isacharparenleft}a\ {\isacharasterisk}\ b{\isacharparenright}\ {\isacharequal}\ {\isacharparenleft}even\ a\ {\isasymor}\ even\ b{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a{\isachardot}\ a\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\ {\isacharasterisk}\ a\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ a\ dvd\ a\ {\isacharasterisk}\ b\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[7]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;even\ b\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;b\isactrlsup {\isadigit{2}}\ {\isacharequal}\ {\isadigit{2}}\ {\isacharasterisk}\ c\isactrlsup {\isadigit{2}}\&lt;close&gt;</used_local_facts>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ even\ {\isacharparenleft}a\ {\isacharasterisk}\ b{\isacharparenright}\ {\isacharequal}\ {\isacharparenleft}even\ a\ {\isasymor}\ even\ b{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a{\isachardot}\ a\isactrlsup {\isadigit{2}}\ {\isacharequal}\ a\ {\isacharasterisk}\ a\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a\ b{\isachardot}\ a\ dvd\ a\ {\isacharasterisk}\ b\&lt;close&gt;</used_global_facts>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;coprime\ a\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;even\ a\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[8]" refinement_step_location="None" theorem_id="thm_sqt_2_irra1">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;False\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;coprime\ a\ b\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;even\ a\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;even\ b\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[]" refinement_step_location="([],1)" theorem_id="thm_filterlim_sequentially_iff_filterlim_real2">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;filterlim\ f\ sequentially\ F\ {\isasymlongrightarrow}\ {\isacharparenleft}LIM\ x\ F{\isachardot}\ real\ {\isacharparenleft}f\ x{\isacharparenright}\ {\isacharcolon}{\isachargreater}\ at{\isacharunderscore}top{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}g\ F{\isadigit{3}}\ F{\isadigit{2}}\ f\ F{\isadigit{1}}{\isachardot}\isanewline
+\isaindent{\ \ \ }filterlim\ g\ F{\isadigit{3}}\ F{\isadigit{2}}\ {\isasymlongrightarrow}\ filterlim\ f\ F{\isadigit{2}}\ F{\isadigit{1}}\ {\isasymlongrightarrow}\ {\isacharparenleft}LIM\ x\ F{\isadigit{1}}{\isachardot}\ g\ {\isacharparenleft}f\ x{\isacharparenright}\ {\isacharcolon}{\isachargreater}\ F{\isadigit{3}}{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;filterlim\ real\ at{\isacharunderscore}top\ sequentially\&lt;close&gt;</used_global_facts>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[]" refinement_step_location="([],2,[-1])" theorem_id="thm_filterlim_sequentially_iff_filterlim_real2">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;LIM\ x\ F{\isachardot}\ real\ {\isacharparenleft}f\ x{\isacharparenright}\ {\isacharcolon}{\isachargreater}\ at{\isacharunderscore}top\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;LIM\ x\ F{\isachardot}\ nat\ {\isasymlfloor}real\ {\isacharparenleft}f\ x{\isacharparenright}{\isasymrfloor}\ {\isacharcolon}{\isachargreater}\ sequentially\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}f\ F{\isadigit{1}}{\isachardot}\ filterlim\ f\ at{\isacharunderscore}top\ F{\isadigit{1}}\ {\isasymlongrightarrow}\ {\isacharparenleft}LIM\ x\ F{\isadigit{1}}{\isachardot}\ nat\ {\isacharparenleft}f\ x{\isacharparenright}\ {\isacharcolon}{\isachargreater}\ sequentially{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}f\ F{\isadigit{1}}{\isachardot}\ filterlim\ f\ at{\isacharunderscore}top\ F{\isadigit{1}}\ {\isasymlongrightarrow}\ {\isacharparenleft}LIM\ x\ F{\isadigit{1}}{\isachardot}\ {\isasymlfloor}f\ x{\isasymrfloor}\ {\isacharcolon}{\isachargreater}\ at{\isacharunderscore}top{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}P\ Q{\isachardot}\ P\ {\isasymlongrightarrow}\ Q\ {\isasymlongrightarrow}\ P\ {\isasymand}\ Q\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[]" refinement_step_location="([],2,[0])" theorem_id="thm_filterlim_sequentially_iff_filterlim_real2">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;LIM\ x\ F{\isachardot}\ nat\ {\isasymlfloor}real\ {\isacharparenleft}f\ x{\isacharparenright}{\isasymrfloor}\ {\isacharcolon}{\isachargreater}\ sequentially\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;filterlim\ f\ sequentially\ F\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[]" refinement_step_location="([],2,[0],0)" theorem_id="thm_filterlim_sequentially_iff_filterlim_real2">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;LIM\ x\ F{\isachardot}\ nat\ {\isasymlfloor}real\ {\isacharparenleft}f\ x{\isacharparenright}{\isasymrfloor}\ {\isacharcolon}{\isachargreater}\ sequentially\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}f\ F{\isadigit{1}}{\isachardot}\ filterlim\ f\ at{\isacharunderscore}top\ F{\isadigit{1}}\ {\isasymlongrightarrow}\ {\isacharparenleft}LIM\ x\ F{\isadigit{1}}{\isachardot}\ nat\ {\isacharparenleft}f\ x{\isacharparenright}\ {\isacharcolon}{\isachargreater}\ sequentially{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}f\ F{\isadigit{1}}{\isachardot}\ filterlim\ f\ at{\isacharunderscore}top\ F{\isadigit{1}}\ {\isasymlongrightarrow}\ {\isacharparenleft}LIM\ x\ F{\isadigit{1}}{\isachardot}\ {\isasymlfloor}f\ x{\isasymrfloor}\ {\isacharcolon}{\isachargreater}\ at{\isacharunderscore}top{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;LIM\ x\ F{\isachardot}\ real\ {\isacharparenleft}f\ x{\isacharparenright}\ {\isacharcolon}{\isachargreater}\ at{\isacharunderscore}top\&lt;close&gt;</used_local_facts>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}P\ Q{\isachardot}\ P\ {\isasymlongrightarrow}\ Q\ {\isasymlongrightarrow}\ P\ {\isasymand}\ Q\&lt;close&gt;</used_global_facts>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="1" location_in_theorem="[]" refinement_step_location="([],2,[0],0)" theorem_id="thm_filterlim_sequentially_iff_filterlim_real2">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymforall}f\ F{\isadigit{1}}{\isachardot}\ filterlim\ f\ at{\isacharunderscore}top\ F{\isadigit{1}}\ {\isasymlongrightarrow}\ {\isacharparenleft}LIM\ x\ F{\isadigit{1}}{\isachardot}\ nat\ {\isacharparenleft}f\ x{\isacharparenright}\ {\isacharcolon}{\isachargreater}\ sequentially{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;LIM\ x\ F{\isachardot}\ nat\ {\isasymlfloor}real\ {\isacharparenleft}f\ x{\isacharparenright}{\isasymrfloor}\ {\isacharcolon}{\isachargreater}\ sequentially\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}f\ F{\isadigit{1}}{\isachardot}\ filterlim\ f\ at{\isacharunderscore}top\ F{\isadigit{1}}\ {\isasymlongrightarrow}\ {\isacharparenleft}LIM\ x\ F{\isadigit{1}}{\isachardot}\ {\isasymlfloor}f\ x{\isasymrfloor}\ {\isacharcolon}{\isachargreater}\ at{\isacharunderscore}top{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;LIM\ x\ F{\isachardot}\ real\ {\isacharparenleft}f\ x{\isacharparenright}\ {\isacharcolon}{\isachargreater}\ at{\isacharunderscore}top\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}P\ Q{\isachardot}\ P\ {\isasymlongrightarrow}\ Q\ {\isasymlongrightarrow}\ P\ {\isasymand}\ Q\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="2" location_in_theorem="[]" refinement_step_location="([],2,[0],0)" theorem_id="thm_filterlim_sequentially_iff_filterlim_real2">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymforall}f\ F{\isadigit{1}}{\isachardot}\ filterlim\ f\ at{\isacharunderscore}top\ F{\isadigit{1}}\ {\isasymlongrightarrow}\ {\isacharparenleft}LIM\ x\ F{\isadigit{1}}{\isachardot}\ {\isasymlfloor}f\ x{\isasymrfloor}\ {\isacharcolon}{\isachargreater}\ at{\isacharunderscore}top{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;LIM\ x\ F{\isachardot}\ nat\ {\isasymlfloor}real\ {\isacharparenleft}f\ x{\isacharparenright}{\isasymrfloor}\ {\isacharcolon}{\isachargreater}\ sequentially\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}f\ F{\isadigit{1}}{\isachardot}\ filterlim\ f\ at{\isacharunderscore}top\ F{\isadigit{1}}\ {\isasymlongrightarrow}\ {\isacharparenleft}LIM\ x\ F{\isadigit{1}}{\isachardot}\ nat\ {\isacharparenleft}f\ x{\isacharparenright}\ {\isacharcolon}{\isachargreater}\ sequentially{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;LIM\ x\ F{\isachardot}\ real\ {\isacharparenleft}f\ x{\isacharparenright}\ {\isacharcolon}{\isachargreater}\ at{\isacharunderscore}top\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}P\ Q{\isachardot}\ P\ {\isasymlongrightarrow}\ Q\ {\isasymlongrightarrow}\ P\ {\isasymand}\ Q\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[]" refinement_step_location="([],2,[1])" theorem_id="thm_filterlim_sequentially_iff_filterlim_real2">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;filterlim\ f\ sequentially\ F\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;LIM\ x\ F{\isachardot}\ nat\ {\isasymlfloor}real\ {\isacharparenleft}f\ x{\isacharparenright}{\isasymrfloor}\ {\isacharcolon}{\isachargreater}\ sequentially\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[3]" refinement_step_location="None" theorem_id="thm_foo16">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;b\ {\isacharequal}\ {\isadigit{2}}\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}b{\isachardot}\ b\ {\isacharequal}\ {\isadigit{2}}\ {\isasymlongrightarrow}\ thesis\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[3,-1]" refinement_step_location="None" theorem_id="thm_foo16">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymforall}b{\isachardot}\ b\ {\isacharequal}\ {\isadigit{2}}\ {\isasymlongrightarrow}\ thesis\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;b\ {\isacharequal}\ {\isadigit{2}}\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[4]" refinement_step_location="None" theorem_id="thm_foo16">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;False\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;b\ {\isacharequal}\ {\isadigit{2}}\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[0]" refinement_step_location="None" theorem_id="thm_foo8">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ B\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ D\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;B\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;B\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[0]" refinement_step_location="None" theorem_id="thm_foo8">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;B\ {\isacharequal}\ C\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ D\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ B\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ B\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[0]" refinement_step_location="None" theorem_id="thm_foo8">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[1]" refinement_step_location="None" theorem_id="thm_foo8">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ D\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ D\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ B\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;B\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ B\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;B\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[1]" refinement_step_location="None" theorem_id="thm_foo8">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ D\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ B\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;B\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="0" location_in_theorem="[1]" refinement_step_location="None" theorem_id="thm_foo8">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ B\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;B\ {\isacharequal}\ C\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[2]" refinement_step_location="None" theorem_id="thm_foo8">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ D\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ B\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;B\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;A\ {\isacharequal}\ C\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;C\ {\isacharequal}\ D\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[-1]" refinement_step_location="None" theorem_id="thm_de_Morgan9">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ P\ x{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ P\ x\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ P\ x\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[0]" refinement_step_location="None" theorem_id="thm_de_Morgan9">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymnexists}x{\isachardot}\ {\isasymnot}\ P\ x\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ P\ x\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[1]" refinement_step_location="None" theorem_id="thm_de_Morgan9">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ P\ x\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ P\ x\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ P\ x{\isacharparenright}\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="1" location_in_theorem="[1,1,2]" refinement_step_location="None" theorem_id="thm_de_Morgan9">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ P\ x\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnexists}x{\isachardot}\ {\isasymnot}\ P\ x\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;P\ x\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ P\ x\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ P\ x\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;True\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[1,1]" refinement_step_location="None" theorem_id="thm_de_Morgan9">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;P\ x\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}P{\isachardot}\ {\isacharparenleft}{\isasymnot}\ P\ {\isasymlongrightarrow}\ P{\isacharparenright}\ {\isasymlongrightarrow}\ P\&lt;close&gt;</used_global_facts>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[1,1,2]" refinement_step_location="None" theorem_id="thm_de_Morgan9">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;P\ x\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ P\ x\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ P\ x\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ P\ x\&lt;close&gt;</used_local_facts>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;True\&lt;close&gt;</used_global_facts>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[1,1,0]" refinement_step_location="None" theorem_id="thm_de_Morgan9">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ P\ x\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ P\ x\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ P\ x\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="2" location_in_theorem="[1,1,2]" refinement_step_location="None" theorem_id="thm_de_Morgan9">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ P\ x\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ P\ x\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;P\ x\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ P\ x\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ P\ x\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;True\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[1,1,1]" refinement_step_location="None" theorem_id="thm_de_Morgan9">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ P\ x\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ P\ x\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;P\ x\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ P\ x\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ P\ x\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;False\ {\isasymnoteq}\ True\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;True\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[2]" refinement_step_location="None" theorem_id="thm_de_Morgan9">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ P\ x\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ P\ x{\isacharparenright}\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ P\ x\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[0]" refinement_step_location="None" theorem_id="thm_Drinker's_Principle10">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ drunk\ x\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a{\isachardot}\ drunk\ a\ {\isasymlongrightarrow}\ All\ drunk\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[7,1]" refinement_step_location="None" theorem_id="thm_Drinker's_Principle10">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ drunk\ x\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ drunk\ a\&lt;close&gt; &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;drunk\ a\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[1]" refinement_step_location="None" theorem_id="thm_Drinker's_Principle10">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a{\isachardot}\ drunk\ a\ {\isasymlongrightarrow}\ All\ drunk\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ drunk\ x\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ drunk\ x\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ drunk\ x{\isacharparenright}\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[2]" refinement_step_location="None" theorem_id="thm_Drinker's_Principle10">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ drunk\ x\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ drunk\ x{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}a{\isachardot}\ drunk\ a\ {\isasymlongrightarrow}\ All\ drunk\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[8]" refinement_step_location="None" theorem_id="thm_Drinker's_Principle10">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ drunk\ x\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ drunk\ x{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;drunk\ a\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ drunk\ x{\isacharparenright}\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences/>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[4]" refinement_step_location="None" theorem_id="thm_Drinker's_Principle10">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ drunk\ x{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ drunk\ x\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}P{\isachardot}\ {\isasymnot}\ All\ P\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymexists}x{\isachardot}\ {\isasymnot}\ P\ x{\isacharparenright}\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[5]" refinement_step_location="None" theorem_id="thm_Drinker's_Principle10">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ drunk\ x\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ drunk\ x{\isacharparenright}\&lt;close&gt;</used_local_facts>
+      <used_global_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}P{\isachardot}\ {\isasymnot}\ All\ P\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymexists}x{\isachardot}\ {\isasymnot}\ P\ x{\isacharparenright}\&lt;close&gt;</used_global_facts>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ drunk\ a\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[6]" refinement_step_location="None" theorem_id="thm_Drinker's_Principle10">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ drunk\ a\&lt;close&gt;</target_fact>
+      <used_local_facts> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ {\isasymnot}\ drunk\ x\&lt;close&gt;</used_local_facts>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ drunk\ x\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;drunk\ a\&lt;close&gt;</consequences_others>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[7]" refinement_step_location="None" theorem_id="thm_Drinker's_Principle10">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;drunk\ a\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ drunk\ x{\isacharparenright}\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymexists}x{\isachardot}\ drunk\ x\ {\isasymlongrightarrow}\ {\isacharparenleft}{\isasymforall}x{\isachardot}\ drunk\ x{\isacharparenright}\&lt;close&gt;</consequences>
+      <consequences_others/>
+   </entry>
+   <entry compound_index="None" location_in_theorem="[7,0]" refinement_step_location="None" theorem_id="thm_Drinker's_Principle10">
+      <target_fact>\&lt;^latex&gt;\&lt;open&gt;drunk\ a\&lt;close&gt;</target_fact>
+      <used_local_facts/>
+      <used_global_facts/>
+      <consequences> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymforall}x{\isachardot}\ drunk\ x\&lt;close&gt;</consequences>
+      <consequences_others> &lt;SEP&gt; \&lt;^latex&gt;\&lt;open&gt;{\isasymnot}\ drunk\ a\&lt;close&gt;</consequences_others>
+   </entry>
+</theory>
