@@ -115,6 +115,10 @@ IGNORED_ENTRIES = {
     'IMAP-CRDT'
 }
 
+with open("train_names.txt", "r") as f:
+    train_li = f.read().splitlines()
+IGNORED_ENTRIES.update(train_li)
+
 FOCUSED_THEORIES = {
     'HOL/Transcendental.thy',
 }
@@ -386,6 +390,7 @@ def create_dataset(dir_path,isa_bin ,visible_opt = 'DEFAULT',processed_id = 0, n
             if visible_opt == 'FOCUSED_ENTRIES' and dir_name not in FOCUSED_ENTRIES:
                 continue
             if dir_name in IGNORED_ENTRIES:
+                print('Dataset {} has been skipped due to being in IGNORED_ENTRIES'.format(dir_name))
                 continue
             session_dir_path = os.path.normpath(join(dir_path, dir_name))
             if check_meta(session_dir_path):

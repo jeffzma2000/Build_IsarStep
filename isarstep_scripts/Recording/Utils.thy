@@ -65,7 +65,7 @@ fun eval_thm_alt ctxt (fr:Facts.ref * Token.src list) =
 
 fun forall_intr_vars_prop_of thm =
   let
-    val pp = SOME (forall_intr_vars thm) handle _ => NONE
+    val pp = SOME (Thm.forall_intr_vars thm) handle _ => NONE
   in
     case pp of 
       SOME tt => Thm.prop_of tt 

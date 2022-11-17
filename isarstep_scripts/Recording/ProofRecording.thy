@@ -6,7 +6,7 @@ begin
 ML \<open>
 fun atomise_thm ctxt thm =  
   let 
-    val thm' = forall_intr_vars thm (*forall_intr_vars may throw exception sometimes*)
+    val thm' = Thm.forall_intr_vars thm (*forall_intr_vars may throw exception sometimes*)
     val meta_eq = Object_Logic.atomize ctxt (Thm.cprop_of thm')
   in
     if Thm.is_reflexive meta_eq then
